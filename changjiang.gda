@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>changjiang</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>changjiang.shp</path>
+            </datasource>
+            <layername>changjiang</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>F4</var>
+                <var>CityNameC</var>
+                <var>UID</var>
+                <var>
+                    MEAN
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    MEAN_1
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    LISA_I
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>LISA_CL</var>
+                <var>
+                    LISA_P
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>changjiang3</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>custom</weights_type>
+                        <path>changjiang3.gwt</path>
+                        <id_variable>UID</id_variable>
+                        <symmetry>unknown</symmetry>
+                        <num_observations>123</num_observations>
+                        <min_neighbors>22</min_neighbors>
+                        <max_neighbors>22</max_neighbors>
+                        <mean_neighbors>22</mean_neighbors>
+                        <median_neighbors>22</median_neighbors>
+                        <non_zero_perc>17.886178861788618</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>MEAN</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name>MEAN_1</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
